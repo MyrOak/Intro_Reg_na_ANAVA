@@ -73,7 +73,7 @@ $$\beta_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}$$
 $$\beta_0 = \bar{y} - \beta_1 \bar{x}$$
 
 Etapas:
-Calcular as médias $\bar(x)$ e $\bar(y)$. 
+Calcular as médias $(\bar{x})$ e $(\bar{y})$. 
 
 Montar a tabela com: $x$, $y$, $x^2$, $y^2$, $x \cdot y$
 
