@@ -79,7 +79,7 @@ Montar a tabela com: $x$, $y$, $x^2$, $y^2$, $x \cdot y$
 
 Aplicar as fórmulas.
 
-- Vamos fazer juntos
+- Vamos fazer juntos!
 
 Dados:
 
@@ -98,6 +98,8 @@ Dados:
   2. Escolha 2 (Regressão $A+BX$)
   3. Inserir pares $(X, Y)$: ex: $5$ , $0.8$ M+
   4. SHIFT $+$ $1$ → 5 (Reg) → $1$ ($\beta_0$), $2$ ($\beta_1$), $3$ (r)
+ 
+ou veja este tutorial: https://sites.google.com/site/andrehgomes/material-didatico/fisica-experimental/regressao-linear-usando-uma-casio
 
 Resultados esperados:
 - $\beta_0$ = -0.2
