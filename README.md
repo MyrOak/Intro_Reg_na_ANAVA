@@ -97,18 +97,18 @@ Dados:
   1. Pressione MODE → 2 (STAT)
   2. Escolha 2 (Regressão $A+BX$)
   3. Inserir pares $(X, Y)$: ex: $5$ , $0.8$ M+
-  4. 4. SHIFT $+$ $1$ → 5 (Reg) → $1$ ($b0$), $2$ ($b1$), $3$ (r)
+  4. 4. SHIFT $+$ $1$ → 5 (Reg) → $1$ ($\beta_0$), $2$ ($\beta_1$), $3$ (r)
 
 Resultados esperados:
-- b0 = -0.2
-- b1 = 0.2
+- $\beta_0$ = -0.2
+- $\beta_1$ = 0.2
 - r = 1.0
 
 Equação: $Y = -0.2 + 0.2X$
 
 - Interpretação do Modelo
-  - $b1$ $=$ $0.2$: cada kg adicional de ração resulta, em média, em $0.2$ kg de ganho de peso.
-  - $b0$ $=$ $-0.2$: valor estimado do ganho quando a ração é zero (pouca utilidade biológica).
+  - $\beta_1$ $=$ $0.2$: cada kg adicional de ração resulta, em média, em $0.2$ kg de ganho de peso.
+  - $\beta_0$ $=$ $-0.2$: valor estimado do ganho quando a ração é zero (pouca utilidade biológica).
   - Predição: para $X = 10$ → $Y = -0.2 + 0.2 × 10 = $1.8$kg.
 
 6. Exercício Final
@@ -125,7 +125,7 @@ Dados:
 
 Tarefas:
 1. Calcular médias de $X$ e $Y$.
-2. Estimar os coeficientes $b0$ e $b1$.
+2. Estimar os coeficientes $\beta_0$ e $\beta_1$.
 3. Escrever a equação da reta.
 4. Interpretar os coeficientes.
 5. Estimar produção para $135$ g de ração.
