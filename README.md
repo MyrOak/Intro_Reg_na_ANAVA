@@ -3,6 +3,8 @@ Curso: Estatística Aplicada à Zootecnia
 Objetivo: Compreender a aplicação da regressão linear simples para análise de relações quantitativas em experimentos zootécnicos.
 Duração: 2h (1h30 aula expositiva + 30min exercício final)
 
+Para assessar o slide clique [aqui](https://view.genially.com/6825c4b204ad060b7f4d64ec/interactive-content-regressao-na-analise-de-variancia)!
+
 1. Relações entre Variáveis Quantitativas
 
 Na Zootecnia, é comum estudar como variáveis quantitativas se relacionam. Esses estudos são fundamentais para:
@@ -99,7 +101,7 @@ Dados:
   3. Inserir pares $(X, Y)$: ex: $5$ , $0.8$ M+
   4. SHIFT $+$ $1$ → 5 (Reg) → $1$ ($\beta_0$), $2$ ($\beta_1$), $3$ (r)
  
-ou veja este tutorial: https://sites.google.com/site/andrehgomes/material-didatico/fisica-experimental/regressao-linear-usando-uma-casio
+ou veja este [tutorial](https://sites.google.com/site/andrehgomes/material-didatico/fisica-experimental/regressao-linear-usando-uma-casio)
 
 Resultados esperados:
 - $\beta_0$ = -0.2
