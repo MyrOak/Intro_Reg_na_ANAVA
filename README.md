@@ -12,9 +12,9 @@ Na Zootecnia, é comum estudar como variáveis quantitativas se relacionam. Esse
 - Ajustar recomendações técnicas de nutrição, ambiência, manejo, etc.
 
 Exemplos práticos:
-- Consumo de ração (X) vs. ganho de peso diário (Y)
-- Nível de proteína na dieta (X) vs. produção de leite (Y)
-- Densidade de lotação (X) vs. conversão alimentar (Y)
+- Consumo de ração (X) vs. ganho de peso diário ($Y$)
+- Nível de proteína na dieta ($X$) vs. produção de leite ($Y$)
+- Densidade de lotação ($X$) vs. conversão alimentar ($Y$)
 
 Objetivos da análise relacional:
 - Descrever: como uma variável varia com a outra.
@@ -35,5 +35,45 @@ Interpretação:
 | Próximo de +1 | Correlação forte positiva       |
 | Próximo de -1 | Correlação forte negativa       |
 | Próximo de 0  | Correlação fraca ou inexistente |
-   
-3. sad
+
+⚠️ Importante: correlação não implica causalidade.
+
+3. Regressão Linear Simples
+
+A regressão estuda a relação funcional entre uma variável dependente $Y$ e uma independente $X$:
+
+$Y = \beta_0 + \beta_1 X + \varepsilon$
+
+Onde:
+  - $\beta_0$: intercepto (valor de $Y$ quando $X$ = $0$)
+  - $\beta_1$: coeficiente angular (mudança esperada em $Y$ a cada unidade de $X$)
+  - $\varepsilon$: erro aleatório
+
+Objetivo: encontrar os valores estimados de $\beta_0$ e $\beta_1$ que melhor ajustam os dados.
+
+4. Estimativa dos Parâmetros (Mínimos Quadrados)
+
+Método dos Mínimos Quadrados (MMQ)
+
+Minimiza a soma dos quadrados dos resíduos (erros) entre os valores observados e os estimados.
+
+Fórmulas:
+
+$$\beta_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}$$
+
+$$\beta_0 = \bar{y} - \beta_1 \bar{x}$$
+
+Etapas:
+Calcular as médias 
+
+​
+ 
+
+Montar a tabela com:
+
+
+Aplicar as fórmulas
+
+
+
+5. 
