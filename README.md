@@ -30,13 +30,22 @@ A correlação mede a força e a direção da relação linear entre duas variá
 
 Interpretação:
 
-| Valor de r | Interpretação                   |
-|------------|----------------------------------|
+| Valor de r    | Interpretação                   |
+|---------------|---------------------------------|
 | Próximo de +1 | Correlação forte positiva       |
 | Próximo de -1 | Correlação forte negativa       |
 | Próximo de 0  | Correlação fraca ou inexistente |
 
 ⚠️ Importante: correlação não implica causalidade.
+
+Ou ainda:
+
+| Valor de r        | Interpretação           |
+|-------------------|-------------------------|
+| 0.8 ≤ \|r\| ≤ 1.0 | Correlação forte        |
+| 0.5 ≤ \|r\| ≤ 0.8 | Correlação moderada     |
+| 0.3 ≤ \|r\| ≤ 0.5 | Correlação fraca        |
+| 0.0 ≤ \|r\| ≤ 0.3 | Correlação desprezível  |
 
 3. Regressão Linear Simples
 
