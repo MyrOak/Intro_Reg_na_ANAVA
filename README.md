@@ -26,7 +26,7 @@ Objetivos da análise relacional:
 A correlação mede a força e a direção da relação linear entre duas variáveis quantitativas.
 
 -	Coeficiente de correlação de Pearson (r):
--	$r = \dfrac{\sum\(x-\bar(x))}{\sqrt(\sum(x-\bar(x))}
+-	$r = \dfrac{\sum\(x-\bar(x))}{\sqrt(\sum(x-\bar(x))}$
 -	r = Σ[(x - x̄)(y - ȳ)] / √[Σ(x - x̄)^2 * Σ(y - ȳ)^2]
 
 Interpretação:
