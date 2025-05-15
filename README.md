@@ -97,7 +97,7 @@ Dados:
   1. Pressione MODE → 2 (STAT)
   2. Escolha 2 (Regressão $A+BX$)
   3. Inserir pares $(X, Y)$: ex: $5$ , $0.8$ M+
-  4. 4. SHIFT $+$ $1$ → 5 (Reg) → $1$ ($\beta_0$), $2$ ($\beta_1$), $3$ (r)
+  4. SHIFT $+$ $1$ → 5 (Reg) → $1$ ($\beta_0$), $2$ ($\beta_1$), $3$ (r)
 
 Resultados esperados:
 - $\beta_0$ = -0.2
