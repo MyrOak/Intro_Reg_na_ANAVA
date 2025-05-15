@@ -73,16 +73,59 @@ $$\beta_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}$$
 $$\beta_0 = \bar{y} - \beta_1 \bar{x}$$
 
 Etapas:
-Calcular as médias 
+Calcular as médias $\bar(x)$ e $\bar(y)$. 
 
-​
- 
+Montar a tabela com: $x$, $y$, $x^2$, $y^2$, $x \cdot y$
 
-Montar a tabela com:
+Aplicar as fórmulas.
 
+- Vamos fazer juntos
 
-Aplicar as fórmulas
+Dados:
 
+| X (Ração kg/dia) | Y (Ganho kg/dia) |
+|------------------|------------------|
+| 5.0              | 0.8              |
+| 6.0              | 1.0              |
+| 7.0              | 1.2              |
+| 8.0              | 1.4              |
+| 9.0              | 1.6              |
 
+5. Exemplo com Calculadora Científica
 
-5. 
+- Passo a passo (Casio fx-82MS, fx-991, etc.):
+  1. Pressione MODE → 2 (STAT)
+  2. Escolha 2 (Regressão A+BX)
+  3. Inserir pares (X, Y): ex: 5 , 0.8 M+
+  4. 4. SHIFT + 1 → 5 (Reg) → 1 (b0), 2 (b1), 3 (r)
+
+Resultados esperados:
+- b0 = -0.2
+- b1 = 0.2
+- r = 1.0
+
+Equação: $Y = -0.2 + 0.2X$
+
+- Interpretação do Modelo
+  - $b1$ $=$ $0.2$: cada kg adicional de ração resulta, em média, em $0.2$ kg de ganho de peso.
+  - $b0$ $=$ $-0.2$: valor estimado do ganho quando a ração é zero (pouca utilidade biológica).
+  - Predição: para $X = 10$ → $Y = -0.2 + 0.2 × 10 = $1.8$kg.
+
+6. Exercício Final
+
+Dados:
+
+| Ração (g) | Produção (L/dia) |
+|-----------|------------------|
+| 50        | 1.2              |
+| 75        | 1.7              |
+| 100       | 2.0              |
+| 125       | 2.1              |
+| 150       | 2.5              |
+
+Tarefas:
+1. Calcular médias de $X$ e $Y$.
+2. Estimar os coeficientes $b0$ e $b1$.
+3. Escrever a equação da reta.
+4. Interpretar os coeficientes.
+5. Estimar produção para $135$ g de ração.
