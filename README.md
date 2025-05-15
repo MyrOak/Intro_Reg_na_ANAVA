@@ -95,9 +95,9 @@ Dados:
 
 - Passo a passo (Casio fx-82MS, fx-991, etc.):
   1. Pressione MODE → 2 (STAT)
-  2. Escolha 2 (Regressão A+BX)
-  3. Inserir pares (X, Y): ex: 5 , 0.8 M+
-  4. 4. SHIFT + 1 → 5 (Reg) → 1 (b0), 2 (b1), 3 (r)
+  2. Escolha 2 (Regressão $A+BX$)
+  3. Inserir pares $(X, Y)$: ex: $5$ , $0.8$ M+
+  4. 4. SHIFT $+$ $1$ → 5 (Reg) → $1$ ($b0$), $2$ ($b1$), $3$ (r)
 
 Resultados esperados:
 - b0 = -0.2
