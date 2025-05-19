@@ -113,7 +113,7 @@ Equação: $Y = -0.2 + 0.2X$
 - Interpretação do Modelo
   - $\beta_1$ $=$ $0.2$: cada kg adicional de ração resulta, em média, em $0.2$ kg de ganho de peso.
   - $\beta_0$ $=$ $-0.2$: valor estimado do ganho quando a ração é zero (pouca utilidade biológica).
-  - Predição: para $X = 10$ → $Y = -0.2 + 0.2 × 10 = $1.8$kg.
+  - Predição: para $X = 8.5$ → $Y = -0.2 + 0.2 × 8.5 = $1.5$kg.
 
 6. Exercício Final
 
